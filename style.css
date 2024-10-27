@@ -1,0 +1,740 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+body{
+
+    overflow: hidden;
+    overflow-y: none;
+
+}
+.sectLogin{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+
+}
+
+.img1{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+}
+.logar{
+
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    height: 30vh;
+    margin: 200px auto;
+    border: 0px solid red;
+    z-index: 999999;
+    background-color: #0000007b;
+    box-shadow: 0 20px 30px rgb(66, 146, 146);
+
+}
+.h1{
+
+    font-size: 2rem;
+    color: bisque;
+    font-weight: bold;
+    margin-top: 3%;
+    letter-spacing: 3px;
+    margin-bottom: 4%;
+
+}
+input{
+
+    width: 80%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: bisque;
+    color: #1f1f1f;
+    padding-left: 5%;
+    margin-top: 2%;
+    font-size: 1.1em;
+
+
+}
+.btn1{
+
+    width: 80%;
+    height: 4vh;
+    border: none;
+    outline: none;
+    background-color: #1f1f1f;
+    color: bisque;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 1%;
+    border-radius: 3px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.btn1:hover{
+
+    transition: .3s ease-in-out;
+    color: #1f1f1f;
+    background-color: bisque;
+
+
+}
+.img2{
+
+    width: 80%;
+    height: 11vh;
+    margin-top: 6%;
+    border-radius: 3px;
+    box-shadow: 0 20px 30px cyan;
+
+
+}
+marquee{
+
+
+    color: bisque;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    margin-top: 3%;
+
+
+}
+.Conteudo{
+
+width: 100%;
+height: 100vh;
+display: flex;
+
+}
+.img3{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+}
+.divConteudo{
+
+    width: 100%;
+    height: 100%;
+    border: 0px solid blue;
+    z-index: 1;
+
+}
+.menu{
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    color: #ccc;
+    background-color: aliceblue;
+
+}
+.l1{
+
+    margin-left: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border-bottom: 4px solid rosybrown;
+    border-radius: 4px;
+    color: #1f1f1f;
+
+}
+.l4{
+
+    margin-right: 2%;
+
+
+}
+li{
+
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+li:hover{
+
+    border-radius: 4px;
+    color: #1f1f1f;
+    border-bottom: 4px solid rosybrown;
+    transition: .3s ease-in-out;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+
+
+}
+.search{
+
+    text-align: center;
+
+
+}
+.search2{
+
+    width: 40%;
+    height: 5vh;
+    border: none;
+    border-radius: 40px;
+    background-color: #1f1f1f;
+    margin-top: 17%;
+    color: bisque;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+.imagem{
+
+
+    text-align: center;
+    margin-top: 3%;
+
+}
+.img5{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+
+
+}
+.smart{
+
+    margin-top: 2%;
+    text-align: center;
+
+}
+.btn2{
+
+    width: 15%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    letter-spacing: 3px;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+    color: #ccc;
+    font-weight: bold;
+    
+
+}
+.imagem2{
+
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    border: 0px solid blue;
+    margin-top: 6%;
+
+
+}
+.img6{
+
+    width: 33.3%;
+    height: 100%;
+    margin-left: 2%;
+    border-radius: 20px;
+    margin-right: 2%;
+    box-shadow: 0 20px 30px #000;
+
+
+}
+.caxa1{
+
+    width: 33.3%;
+    height: 100%;
+    border: 0px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #1f1f1f9a;
+
+}
+.right{
+
+    margin-right: 2%;
+
+
+}
+.cima{
+
+    margin-top: 2%;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+em{
+
+    color: aqua;
+
+}
+p{
+
+    color: aliceblue;
+    margin-top: 4%;
+    font-size: 1.2em;
+
+}
+.btn3{
+
+    width: 200px;
+    height: 6vh;
+    border: none;
+    outline: none;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    margin-right: 2%;
+
+}
+.btn4{
+
+    width: 200px;
+    height: 6vh;
+    border: none;
+    outline: none;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    transition: .3s ease-out;
+    cursor: pointer;
+
+    
+    
+
+}
+.btn3:hover{
+
+    transition: .3s ease-in-out;
+    background-color: rgb(0, 255, 42);
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+    transform: scale(1.1);
+    
+
+}
+.btn4:hover{
+
+    transition: .3s ease-in-out;
+    background-color: rgb(52, 52, 248);
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+    transform: scale(1.1);
+    
+
+}
+marquee{
+
+    font-size: 1.5em;
+
+
+}
+.caxaMenu1{
+
+    width: 100%;
+    height: 30vh;
+    background-color: #1f1f1f;
+    position: absolute;
+    display: none;
+
+}
+.conf1Menu1{
+
+    width: 100%;
+    height: 7vh;
+    
+
+}
+.btn1Menu1{
+
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+
+
+
+}
+.centro{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 23vh;
+    border: 0px solid red;
+
+}
+.cont1{
+
+    text-align: center;
+    width: 33.3%;
+    height: 100%;
+    border: 0px solid blue;
+
+}
+.respostas{
+
+    width: 80%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    background-color: aliceblue;
+    color: #1f1f1f;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 2%;
+    border-radius: 7px;
+
+    
+
+}
+.novo{
+
+    color: darkolivegreen;
+
+}
+.contactoMenu1{
+
+
+    width: 100%;
+    height: 30vh;
+    background-color: #1f1f1f;
+    position: absolute;
+    display: none;
+
+
+}
+.centro2{
+
+    text-align: center;
+    width: 100%;
+    height: 24vh;
+    background-color: #1f1f1f;
+    display: block;
+
+}
+.btn1Contacto1{
+
+    width: 40vh;
+    height: 6vh;
+    border: none;
+    outline: none;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: #1f1f1f;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s ease-in-out; 
+
+
+}
+.w:hover{
+
+    background-color: rgb(0, 255, 42);
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+
+}
+.f:hover{
+
+    background-color: rgb(52, 52, 248);
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+
+}
+.g:hover{
+
+    background-color: #fff;
+    color: #000;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+.fim{
+
+    width: 17vw;
+    height: 6vh;
+    border: none;
+    outline: none;
+    background-color: #1f1f1f;
+    margin-top: 5%;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    box-shadow: 0 20px 30px aliceblue;
+
+}
+.fig{
+
+    border: none;
+    
+
+}
+.baixo{
+
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    display: none;
+  
+
+}
+
+.WhatsApp{
+
+    border-radius: 5px;
+
+}
+.b{
+
+    border: none;
+
+}
+.Facebook{
+
+    border-radius: 5px;
+
+}
+@media screen and (max-width: 650px){
+
+
+    
+.WhatsApp{
+
+    width: 160px;
+    height: 6vh;
+    border: none;
+    outline: none;
+    background-color: #1f1f1f;
+    color: aliceblue;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.Facebook{
+    height: 6vh;
+    transition: .3s ease-in-out;
+    background-color: #1f1f1f;
+    color: aliceblue;
+    width: 160px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+
+
+    .baixo{
+
+        display: flex;
+  
+        margin-top: 13%;
+
+    }
+
+    .logar{
+
+        border: 0px solid red;
+        width: 300px;
+        height: 250px;
+    }
+
+    .btn1{
+
+        height: 6vh;
+
+    }
+    .l1{
+
+        font-size: 1.1em;
+
+
+    }
+  
+    .btn2{
+
+        width: 270px;
+        transition: .3s ease-in-out;
+
+    }
+    .btn2:hover{
+
+        transition: .3s ease-in-out;
+        transform: scale(1.1);
+        background-color: aliceblue;
+        color: #1f1f1f;
+        font-weight: bold;
+        letter-spacing: 3px;
+        cursor: pointer;
+
+
+    }
+    .imagem2{
+
+        display: none;
+        text-align: center;
+
+    }
+    body{
+
+        overflow: hidden;
+        overflow-y: scroll;
+        background-color: #ccc;
+
+    }
+    .caxa1{
+
+        width: 96%;
+        height: 30vh;
+        margin-left: 2%;
+        margin-top: 4%;
+
+    }
+    .img6{
+
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 20vh;
+
+        display: none;
+    }
+    marquee{
+
+        display: none;
+
+    }
+    .btn3{
+
+        display: none;
+
+
+    }
+    .btn4{
+
+        display: none;
+
+
+    }
+    .fim{
+
+        display: none;
+
+    }
+    .fig{
+
+        width: 160px;
+        height: 160px;
+        transform: rotate(45deg) skew(20deg,20deg);
+        border: 0px solid blue;
+        margin: 28% auto;
+        background-color: #1f1f1f;
+        box-shadow: 0 20px 30px aliceblue;
+        animation: figura 3s ease-in-out infinite alternate;
+    }
+    @keyframes figura {
+
+        0%{margin: 28% auto;}
+        50%{margin: 50% auto;}
+        100%{margin: 30% auto;}
+        
+    }
+    .caxaMenu1{
+
+        height: 95vh;
+       
+
+    }
+    .centro{
+
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        border: 1px solod pink;
+       background-color: #1f1f1f;     
+
+    }
+    .centro::-webkit-scrollbar{
+
+        width: 10px;
+        background-color: aliceblue;
+        
+
+    }
+    .centro::-webkit-scrollbar-thumb{
+
+        width: 10px;
+        background-color: #1f1f1f;
+
+    }
+    .cont1{
+
+        width: 100%;
+        height: 19vh;
+        margin-top: 17%;
+
+    }
+    .respostas{
+
+        height: 8vh;
+        margin-top: 3%;
+        
+
+    }
+    .b{
+
+        margin-bottom: 3%;
+
+    }
+}
